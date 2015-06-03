@@ -1,0 +1,401 @@
+/*Общие стили*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: 'fira_sanseight';
+	color: #5a636b;
+	font-size: 16px;
+	background: url(../img/bg.png) repeat;
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+/*Прибить футер к низу*/
+.wraper{
+	position: relative;
+	min-width: 970px;
+	min-height: 100%;
+	overflow: hidden;
+	height: auto!important;
+}
+.wraper:after{
+	content: "";
+	height: 80px;
+	display: block;
+}
+.page-footer{
+	height: 80px;
+	margin-top: -80px;	
+}
+/*Прибить футер к низу - конец*/
+/*Общие стили - конец*/
+
+/*Header*/
+/*Лого*/
+.page-header{
+	background: #eff3f7 url(../img/line.png) bottom center no-repeat;
+}
+.header-wrap{
+	max-width: 1200px;
+	padding: 35px 0;
+	margin: 0 auto;
+}
+.logo{	
+	display: inline-block;
+	float: left;
+}
+/*Иконки соц. сетей*/
+.socials{
+	min-width: 260px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.social-item{
+	list-style: none;
+	display: inline-block;
+	margin-left: 18px;
+}
+.social-item:first-child{
+	margin-left: 0;
+}
+.social-link{
+	width: 47px;
+	height: 47px;
+	display: block;
+	text-indent: -9999px;
+	background: url(../img/sprite.png) no-repeat;
+}
+.vk{
+	background-position: -479px -2px; 
+}
+.tw{
+	background-position: -377px -2px;
+}
+.fb{
+	background-position: -27px -2px;
+}
+.gt{
+	background-position: -159px -2px;
+}
+.vk:hover{
+	background-position: -530px -2px;
+}
+.tw:hover{
+	background-position: -428px -2px;
+}
+.fb:hover{
+	background-position: -78px -2px;
+}
+.gt:hover{
+	background-position: -210px -2px;
+}
+/*Container*/
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+/*Меню с боку*/
+.sidebar{
+	width: 250px;
+	margin-right: 60px;
+	float: left;
+}
+/*Разделы меню*/
+.navigation{
+	background-color: #eff3f7;
+	border-radius: 5px;
+	margin-bottom: 23px;
+	overflow: hidden;
+}
+.navigation-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navigation-item{
+	margin: 0 10px;
+	border-bottom: 2px solid #3ba8c0;
+}
+.navigation-item:last-child{
+	border-bottom: none;
+}
+.actual{
+	background: #3ba8c0;
+	padding-left: 11px;
+	margin: 0;
+	border-bottom: none;
+}
+.navigation-item.actual .navigation-item-link{
+	color: #fff;
+}
+.navigation-item-link{
+	font-family:'fira_sansbook';
+	font-size: 21px;
+	color: #959aa8;
+	display: block;
+	margin-left: 15px;
+	padding: 20px 0;
+}
+.navigation-item-link:hover{
+	color: #3ba8c0;
+	font-size: 21px;
+}
+.navigation-item-link:active{
+	color: #fff;
+}
+/*Контакты*/
+.contacts{
+	border-radius: 5px;
+}
+.contact-list{
+	font-family: 'fira_sansbook';
+	font-style: normal;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.contact-title{
+	font-size: 21px;
+	color: #fff;
+	background-color: #3ba8c0;
+	padding: 15px 0px 10px 20px;
+	border-radius: 5px 5px 0px 0px;
+}
+.contact-item{
+	font-size: 17px;
+	padding: 10px 0;
+}
+.contact-item:last-child{
+	border-radius: 0px 0px 5px 5px;
+}
+.contact-item-link{
+	color: #fff;
+}
+.contact-item-link:hover{
+	text-decoration: underline;
+}
+.mail{
+    background-color: #41b9d4;
+    font-size: 13px;
+}
+.mail:before{
+	content: "";
+	background: url(../img/sprite.png) -2px -2px;
+	width: 21px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 30px; 
+}
+.phone{
+	background-color: #48cbe8;
+}
+.phone:before{
+	content: "";
+	background: url(../img/sprite.png) -330px -2px;
+	display: inline-block;
+    vertical-align: middle;
+	width: 19px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 15px 0 30px; 
+}
+.skype{
+	background-color: #51daf8;
+	/*border-radius: 0px 0px 5px 5px;*/
+}
+.skype:before{
+	content: "";
+	background: url(../img/sprite.png) -353px -2px;
+	display: inline-block;
+    vertical-align: middle;
+	width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 15px 0 30px; 
+}
+.contact-item-link:hover{
+	text-decoration: underline;
+}
+/*Основной блок - общее*/
+.main-content{
+	width: 650px;
+	float: left;
+}
+.box-head{
+	font-family: 'fira_sansbook';
+	color: #3ba8c0;
+	line-height: 1;
+	padding: 20px;
+	border-bottom: 2px solid #3ba8c0;
+	display: inline-block;
+}
+.bio,.job{
+	margin-bottom: 25px;
+}
+.box,.job,.edu{
+	display: block;
+}
+/*Раздел обо мне*/
+/*Первый блок*/
+.box{
+	background-color: #eff3f7;
+	border-radius: 4px;
+}
+.bio,.job{
+	margin-bottom: 25px;
+}
+.avatar-wrap{
+	max-width: 150px;
+	max-height: 150px;
+	margin: 30px 20px 0 55px;
+	border: 5px solid #2ea4bb;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	float: left;
+}
+.avatar{
+	width: 100%;
+}
+.bio-list{
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin: 20px 15px 35px 0;
+}
+.bio-item{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.ask-item{
+	font-family: 'fira_sansmedium';
+	font-size: 17px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+
+}
+.reply-item{
+	font-family: 'fira_sansbook';
+	font-size: 15px;
+	display: inline-block;
+}
+.reply-item-skill{
+	max-width: 235px;
+	list-style: none;
+	display: inline-block;
+}
+.skill-list{
+	font-family: 'fira_sanssemibold';
+	font-size: 14px;
+	
+	color: #fff;
+	margin: 0;
+	padding: 7px 0 0;
+}
+.skill-item{
+	font-size: 14px;
+	color: #fff;	
+	padding: 0px 13px;
+	margin: 0 6px 9px 0;
+	list-style: none;
+	display: inline-block;
+	border-radius: 3px;
+	background: linear-gradient(0deg, #2e8ca2 50%, #3ba8c0 50%);
+}
+/*Второй блок, Третий блок - общее*/
+.job-wrap, .edu-wrap{
+	padding: 20px 0 40px 0;
+}
+.job-list, .edu-list{
+	list-style: none;
+	padding: 0 0 0 55px;
+	margin: 0;
+}
+.item-wrap{
+	margin-bottom: 30px;
+}
+.name{
+	font-family: 'fira_sansbook';
+	font-size: 17px;
+	display: block;
+	margin: 0;
+}
+.period{
+	font-family: 'fira_sanslight';
+	font-size: 15px;
+	display: block;
+}
+/*Второй блок*/
+.job-item .workplace{
+	padding-left: 65px; 
+	background: url(../img/bag.png) no-repeat left center;
+}
+/*Третий блок*/
+.edu-item .uni{
+	padding-left: 65px; 
+	background: url(../img/hat.png) no-repeat left center;
+}
+.edu-item .course{
+	padding-left: 65px; 
+	background: url(../img/course.png) no-repeat 7px 0px;
+}
+/*Footer*/
+.page-footer{
+	background: #eff3f7 url(../img/line.png) top center no-repeat;
+}
+.footer-wrap{
+	font-family: 'fira_sanslight';
+	font-size: 13px;
+	max-width: 970px;
+	margin: 0 auto;
+	padding-top: 25px;
+	position: relative;
+}
+.login{
+	display: inline-block;
+	position: absolute;
+}
+.copyright{
+	display: inline-block;
+}
+.login-link{
+	background: url(../img/sprite.png) -306px -2px;
+	width: 20px;
+    height: 32px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.copyright{
+	text-align: center;
+	margin: 0 245px;
+	padding-top: 5px;
+	display: inline-block;
+}
+/*Clearfix*/
+.clearfix:before,
+.clearfix:after{
+  	content: "";
+  	display: table;
+}
+.clearfix:after{
+  	clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+	*zoom: 1;
+}
