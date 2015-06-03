@@ -171,7 +171,7 @@ a{
 	font-size: 21px;
 	color: #fff;
 	background-color: #3ba8c0;
-	padding: 15px 0px 10px 20px;
+	padding: 8px 0px 5px 20px;
 	border-radius: 5px 5px 0px 0px;
 }
 .contact-item{
@@ -352,7 +352,7 @@ a{
 }
 .edu-item .course{
 	padding-left: 65px; 
-	background: url(../img/course.png) no-repeat 7px 0px;
+	background: url(../img/course.png) no-repeat 7px 9px;
 }
 /*Footer*/
 .page-footer{
