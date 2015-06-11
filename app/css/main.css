@@ -44,6 +44,7 @@ a{
 /*Лого*/
 .page-header{
 	background: #eff3f7 url(../img/line.png) bottom center no-repeat;
+	margin-bottom: 40px;
 }
 .header-wrap{
 	max-width: 1200px;
@@ -105,12 +106,11 @@ a{
 .container{
 	width: 960px;
 	margin: 0 auto;
-	padding: 40px 0;
+	margin-bottom: 25px;
 }
 /*Меню с боку*/
 .sidebar{
 	width: 250px;
-	margin-right: 60px;
 	float: left;
 }
 /*Разделы меню*/
@@ -175,7 +175,7 @@ a{
 	border-radius: 5px 5px 0px 0px;
 }
 .contact-item{
-	font-size: 17px;
+	font-size: 16px;
 	padding: 10px 0;
 }
 .contact-item:last-child{
@@ -234,6 +234,12 @@ a{
 .main-content{
 	width: 650px;
 	float: left;
+	margin-left: 60px;
+}
+.box{
+	background-color: #eff3f7;
+	border-radius: 4px;
+	display: block;
 }
 .box-head{
 	font-family: 'fira_sansbook';
@@ -243,21 +249,11 @@ a{
 	border-bottom: 2px solid #3ba8c0;
 	display: inline-block;
 }
-.bio,.job{
+.bio,.job,.edu{
 	margin-bottom: 25px;
-}
-.box,.job,.edu{
-	display: block;
 }
 /*Раздел обо мне*/
 /*Первый блок*/
-.box{
-	background-color: #eff3f7;
-	border-radius: 4px;
-}
-.bio,.job{
-	margin-bottom: 25px;
-}
 .avatar-wrap{
 	max-width: 150px;
 	max-height: 150px;
@@ -270,11 +266,14 @@ a{
 .avatar{
 	width: 100%;
 }
+.bio-text{
+	max-width: 425px;
+	float: left;
+	
+}
 .bio-list{
 	font-size: 1em;
-	margin: 0;
 	padding: 0;
-	float: right;
 	margin: 20px 15px 35px 0;
 }
 .bio-item{
