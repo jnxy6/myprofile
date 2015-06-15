@@ -12,7 +12,8 @@
 	<link href="../css/normalize.css" rel="stylesheet">
 	<!-- общие стили CSS -->
 	<link href="../css/main.css" rel="stylesheet">
-	<link href="../css/my-works.css" rel="stylesheet">
+	<link href="../css/contact-me.css" rel="stylesheet">
+	<link href="../css/form-elements.css" rel="stylesheet">
 	<!-- fonts CSS -->
 	<link rel="stylesheet" href="../fonts/fira.css">
 	<!-- Favicon -->
@@ -55,7 +56,39 @@
 					</ul>
 				</address>
 			</aside>
+			<div class="main-content">
+				<section class="box contact-me clearfix">
+					<div class="contact-me-title">
+						<h2 class="contact-head">У вас интересный проект? Напишите мне</h2>
+					</div>
+					<!-- Form -->
+					<form action="#" name="contact-form">
+						<div class="form-wrap">
+							<div class="form-info clearfix">
+								<div class="form-user-name">
+									<label class="form-name-title" for="user-name">Имя</label>
+							    	<input class="input" type="user-name" id="user-name" name="user-name" placeholder="Как к Вам обращаться">
+							    </div>
+							    <div class="form-email">
+							    	<label class="form-mail-title" for="email">Email</label>
+							    	<input class="input" type="email" id="email" name="email" placeholder="Куда мне писать">
+							    </div>
+							</div>
+						    <div class="form-message">
+							    <label class="form-mess-title" for="message">Сообщение</label>
+							    <textarea name="message" id="message" class="textarea" placeholder="Кратко о Вашем проекте"></textarea>
+							</div>
+							<div class="form-buttons">
+						    	<button type="submit" class="btn submit">Отправить</button>
+                                <button type="reset" class="btn reset">Очистить</button>
+						    </div>
+						</div>
+					</form>
+					<!-- Form end -->
+				</section>
+			</div>	
 		</div>
+	</div>
 	<footer class="page-footer">
 		<div class="footer-wrap">
 			<div class="login"><a class="login-link" href="/">Войти</a></div>

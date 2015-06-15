@@ -1,0 +1,67 @@
+.contact-me{
+	min-height: 840px;
+}
+.contact-me-title{
+	height: 120px;
+	background: #48cbe8;
+	border-bottom: 10px solid #67dffa;
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 45px;
+}
+.contact-head{
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 40px 0;
+}
+.form-wrap{
+	margin: 0px 120px;
+}
+.form-info,.form-message,.form-buttons{
+	margin-bottom: 20px;
+}
+.form-user-name{
+	display: inline-block;
+	float: left;
+}
+.form-email{
+	display: inline-block;
+	float: right;
+}
+.form-name-title,.form-mail-title,
+.form-mess-title,.input{
+	display: block;
+	text-align: left;
+}
+.form-name-title,.form-mail-title,.form-mess-title{
+	font-family: 'fira_sanslight';
+	color: #959aa8;
+	font-size: 19px;
+}
+.input{
+	font-family: 'fira_sanslight';
+	font-size: 13px;
+	width: 190px;
+	height: 40px;
+	border: 1px solid #48cbe8;
+	border-radius: 4px; 
+	padding-left: 5px;
+}
+.textarea{
+	font-family: 'fira_sanslight';
+	min-width: 410px;
+	max-width: 500px;
+	font-size: 13px;
+	min-height: 180px;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	padding: 10px 8px;
+}
+.submit{
+	float: left;
+}
+.reset{
+	float: right;
+}

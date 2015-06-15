@@ -1,0 +1,42 @@
+input, textarea, button{
+	outline: none;
+}
+.submit,.reset{
+	font-family: 'fira_sansbook';
+	color: #fff;
+	font-size: 19px;
+	border-radius: 4px;
+	padding: 4px 20px 1px;
+}
+.submit{
+	background-color: #33ccff;
+	border: 1px solid #33ccff;
+	box-shadow: 0 3px 0 0 #3ba8c0;
+}
+.reset{
+	background-color: #849db5;
+	border: 1px solid #849db5;
+	box-shadow: 0 3px 0 0 #687b8f;
+}
+.btn:hover{
+	box-shadow: none;
+}
+.btn .reset:active{
+	box-shadow: 0 0 0 3px #687b8f;
+}
+.btn .submit:active{
+	box-shadow: 0 0 0 3px #3ba8c0;
+}
+/*Placeholder*/
+::-webkit-input-placeholder {
+	color: #48cbe8;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #48cbe8;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #48cbe8;
+}
+:-ms-input-placeholder {  
+	color: #48cbe8;
+}

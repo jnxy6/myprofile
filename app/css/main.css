@@ -233,8 +233,8 @@ a{
 /*Основной блок - общее*/
 .main-content{
 	width: 650px;
-	float: left;
 	margin-left: 60px;
+	float: left;
 }
 .box{
 	background-color: #eff3f7;
