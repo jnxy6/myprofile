@@ -2,5 +2,8 @@
   "name": "dz4",
   "dependencies": {
     "jquery": "1.11"
+  },
+  "resolutions": {
+    "jquery": "~2.1.4"
   }
 }

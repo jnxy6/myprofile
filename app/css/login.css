@@ -1,0 +1,62 @@
+.login-container{
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+.login-wrap{
+	background: #eff3f7;
+	width: 590px;
+	height: 484px;
+	text-align: center;
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+    -webkit-box-shadow: 0px 6px 19px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 19px -7px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 19px -7px rgba(0,0,0,0.75);
+}
+.login-title{
+	background: #48cbe8;
+	border-bottom: 10px solid #67dffa;
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 25px;
+}
+.login-head{
+	font-family: 'fira_sansbook';
+	color: #fff;
+	font-size: 40px;
+	line-height: 90px;
+	font-weight: 100;
+}
+.login-form{
+	width: 420px;
+	margin: 0 auto;
+}
+.login-row,.password-row{
+	margin-bottom: 17px;
+}
+.login-label,.password-label{
+	font-family: 'fira_sanseight';
+	font-size: 36px;
+	font-weight: bold;	
+	color: #959aa8;
+	display: block;
+}
+.input{
+	font-family: 'fira_sanslight';
+	font-size: 17px;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #48cbe8;
+	border-radius: 4px; 
+	padding-left: 20px;
+	display: block;
+}
+

@@ -21,12 +21,13 @@
 	<link rel="icon" href="../favicon.png" type="image/x-icon">
 	<!-- JS -->
 	<script src="../js/modernizr.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 </head>
 <body>
 	<!-- [if lt IE 8]>
 		<p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста, <a href="http://browsehappy.com/">обновите</a>его.</p>
 	<![endif] -->
-	<div class="wraper">
+	<div class="wrapper">
 		<header class="page-header">
 			<div class="header-wrap clearfix">
 				<a class="logo" href="../index.html"><img src="img/logo.png" alt="logo"></a>
@@ -62,7 +63,7 @@
 						<h2 class="contact-head">У вас интересный проект? Напишите мне</h2>
 					</div>
 					<!-- Form -->
-					<form action="#" name="contact-form">
+					<form action="?" action="?" method="POST" class="contact-form">
 						<div class="form-wrap">
 							<div class="form-info clearfix">
 								<div class="form-user-name">
@@ -78,6 +79,7 @@
 							    <label class="form-mess-title" for="message">Сообщение</label>
 							    <textarea name="message" id="message" class="textarea" placeholder="Кратко о Вашем проекте"></textarea>
 							</div>
+							<div class="g-recaptcha" data-sitekey="6LcoGwkTAAAAAAZy07HdH04ZyKowJX9Rt8fNaUHb"></div>
 							<div class="form-buttons">
 						    	<button type="submit" class="btn submit">Отправить</button>
                                 <button type="reset" class="btn reset">Очистить</button>

@@ -8,7 +8,16 @@ input, textarea, button{
 	border-radius: 4px;
 	padding: 4px 20px 1px;
 }
-.submit{
+.enter{
+	font-family: 'fira_sansbook';
+	color: #fff;
+	font-size: 26px;
+	font-weight: 200;
+	border-radius: 4px;
+	padding: 0px 60px;
+
+}
+.submit,.enter{
 	background-color: #33ccff;
 	border: 1px solid #33ccff;
 	box-shadow: 0 3px 0 0 #3ba8c0;

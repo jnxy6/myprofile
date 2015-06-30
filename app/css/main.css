@@ -21,14 +21,14 @@ a{
 	cursor: pointer;
 }
 /*Прибить футер к низу*/
-.wraper{
+.wrapper{
 	position: relative;
 	min-width: 970px;
 	min-height: 100%;
 	overflow: hidden;
 	height: auto!important;
 }
-.wraper:after{
+.wrapper:after{
 	content: "";
 	height: 80px;
 	display: block;
@@ -244,10 +244,10 @@ a{
 .box-head{
 	font-family: 'fira_sansbook';
 	color: #3ba8c0;
-	line-height: 1;
 	border-bottom: 2px solid #3ba8c0;
 	display: inline-block;
-	padding: 0 0 20px 20px;
+	padding-left: 20px;
+	line-height: 70px;
 }
 .bio,.job,.edu{
 	margin-bottom: 25px;
@@ -384,7 +384,7 @@ a{
 }
 .copyright{
 	text-align: center;
-	margin: 0 245px;
+	margin: 0 286px;
 	padding-top: 5px;
 	display: inline-block;
 }

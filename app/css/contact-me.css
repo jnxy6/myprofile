@@ -2,7 +2,6 @@
 	min-height: 840px;
 }
 .contact-me-title{
-	height: 120px;
 	background: #48cbe8;
 	border-bottom: 10px solid #67dffa;
 	border-radius: 4px 4px 0 0;
@@ -11,15 +10,15 @@
 .contact-head{
 	font-family: 'fira_sansbook';
 	font-size: 27px;
+	line-height: 120px;
 	color: #fff;
 	text-align: center;
 	margin: 0;
-	padding: 40px 0;
 }
 .form-wrap{
 	margin: 0px 120px;
 }
-.form-info,.form-message,.form-buttons{
+.form-info,.form-message,.g-recaptcha,.form-buttons{
 	margin-bottom: 20px;
 }
 .form-user-name{
@@ -65,3 +64,4 @@
 .reset{
 	float: right;
 }
+
