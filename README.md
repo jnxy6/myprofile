@@ -1,5 +1,5 @@
 
-Чтобы начать работу с проектом:
+To start the project:
 
 1. git clone https://github.com/jnxy6/myprofile.git
 2. npm install
